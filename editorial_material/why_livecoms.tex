@@ -80,7 +80,7 @@ We believe our model will allow for exactly this.
 \section{Preprints, perpetual/living reviews, and overlay journals provide context for \emph{LiveCoMS}}
 
 While much of traditional academic publishing has yet to be dramatically reshaped by the Internet age (aside from broader and faster access), the present day surge of interest in preprints and preprint servers provides a glimpse of the path forward.
-With preprints, authors can post their articles in advance formal publication, gaining readers, drawing community attention, getting citations, and even receiving feedback and constructive criticism that authors use make these articles stronger before their formal publication.
+With preprints, authors can post their articles in advance of formal publication, gaining readers, drawing community attention, getting citations, and even receiving feedback and constructive criticism that authors use make these articles stronger before their formal publication.
 Thus, preprints provide a glimpse of a path forward, as they are updatable documents which are current and have real value.
 Posting of preprints is also typically free, lowering the entry barrier. 
 However, in much of computational molecular science (some areas of physics being a potential exception) preprints do not yet provide the same degree of academic credit as a peer-reviewed publication. 
@@ -101,24 +101,37 @@ At the same time, the overlay journal approach also allows costs to remain extre
 \emph{LiveCoMS} attempts to achieve its goals by providing a journal which allows versioned updates.
 Authors post preprints of their documents on GitHub, and optionally on their preprint server of choice, gaining the benefits of traditional preprints such as early exposure, community feedback, and so on. 
 \emph{LiveCoMS} then arranges for peer reviews of these documents, and, after review/revision, if the articles are suitable for publication, it formally publishes them by posting the specific version which was reviewed, providing a DOI, and linking to the GitHub repository where updates will be made.
-This provides formal publication credit, yet it still allows straightforward versioned updates; the authors are free to post new versions of their ``preprints'' and documents at any time, and can also update the version linked to by \emph{LiveCoMS} when needed, as discussed below.
+This provides formal publication credit, yet it still allows straightforward versioned updates.
+The authors are free to post new versions of their ``preprints'' and documents at any time, and the version linked to by \emph{LiveCoMS} can also be updated when needed, as discussed below.
 
 To help with handling of the updating process and community feedback, we recommend the ``paper writing as code development'' model (\url{https://livecomsjournal.github.io/about/paper_code/}) to formalize community feedback and provide better mechanisms for outside contributions. 
 
 Revision of works published in \emph{LiveCoMS} can occur at two levels. 
 First, for minor revisions, all \emph{LiveCoMS} publications link to a GitHub repository which hosts ALL versions their paper, so readers visiting the published version of the article will be able to click through to the most up-to-date version.
-Second, significant revisions are expected to be made on a fairly regularly basis (perhaps yearly to every couple of years) and these can be published again in \emph{LiveCoMS}, allowing authors to obtain additional publication credit for work they have done updating and maintaining their contributions. 
+Second, significant revisions are expected to be made on a fairly regularly basis (perhaps yearly to every couple of years) and these peer-reviewed versions can be published again in \emph{LiveCoMS}, allowing authors to obtain additional publication credit for work they have done updating and maintaining their contributions. 
+
+\section{Dissemination of important information and documentation is currently not incentivized}
+\emph{LiveCoMS} has the broad goal of presenting information to enhance molecular simulations, and this includes incentivizing the presentation of documents which might otherwise be unavailable or go unrewarded.
+Tutorials are a clear example of a critical class of documentation that is not well-incentivized by the current academic publishing model.
+Tutorials require deep expertise and intensive time commitment, often by junior scientists, and we believe such documents merit article status and the ability to receive formal citations.
+On a different note, publication bias against negative results \cite{munafo2017manifesto} means that we are doomed to repeat the mistakes of our colleagues, both reasonable and unreasonable.
+Systematically presented and \emph{well-validated} negative results also merit publication.
 
 %MRS: should this section below go earlier?
-\section{\emph{LiveCoMS} focuses on documents which benefit from or require this model}
+\section{\emph{LiveCoMS} will present documents consistent with our model and goals}
 
-\emph{LiveCoMS} focuses on publishing content which needs regular updating and which can be of real long-term benefit from the community.
-We focus especially on:
+\emph{LiveCoMS} will publish a range of content aimed at enhancing the quality of molecular simulations.  
+It will present tools to enable top-quality science.  
+Such content typically will require regular updating to maintain its value for the community.  
+Another part of the publishing model is to incentivize the dissemination of important documents that might otherwise go unpublished. 
+The journal intends to publish the following article types:
+
 \begin{enumerate}
 \item Perpetual reviews, review papers which will need updating on an ongoing basis
 \item Best practices documents to help ensure uniform, high standards are followed in computation, providing valuable training which needs updating as science advances
 \item Tutorial documents which educate CoMS scientists on how to perform specific, important tasks which need maintenance as codes/tools change
 \item Simulation/software package comparisons and validation, which likewise need updating as new versions are released
+\item "Lessons learned" documents explaining well-planned and well-tested simulation data sets with unexpected negative results, presented with the rigor of a regular research paper.  Such documents will grow with related examples, and as updated software leads to novel lessons.
 \end{enumerate}
 
 \section{Conclusions}
